@@ -1,0 +1,170 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match snapshot 1`] = `
+{
+  "baseElement": <body>
+    
+    
+    
+  
+
+
+    <div />
+    <div>
+      
+      <div
+        data-v-7a7a37b1=""
+      >
+        <img
+          alt="Picture of Fred"
+          class="headshot"
+          data-v-7a7a37b1=""
+          src="/src/assets/face3.jpg"
+        />
+      </div>
+      <h1
+        data-v-7a7a37b1=""
+      >
+        Fred Nordell
+      </h1>
+      <p
+        data-v-7a7a37b1=""
+      >
+         Counsultant at 
+        <a
+          data-v-7a7a37b1=""
+          href="https://netlight.com"
+          target="_blank"
+        >
+          Netlight
+        </a>
+      </p>
+      <p
+        class="reach-out"
+        data-v-7a7a37b1=""
+      >
+        Reach out at 
+        <a
+          data-v-7a7a37b1=""
+          href="mailto:fred@nordells.nu"
+        >
+          fred@nordells.nu
+        </a>
+      </p>
+      <footer
+        data-v-4896eafd=""
+        data-v-7a7a37b1=""
+      >
+        <a
+          data-v-4896eafd=""
+          href="https://github.com/frednordell"
+          target="_blank"
+        >
+          <img
+            alt="Github Logo"
+            class="footer-logo"
+            data-v-4896eafd=""
+            src="/src/assets/GitHub-Mark-Light-64px.png"
+          />
+        </a>
+        <a
+          data-v-4896eafd=""
+          href="https://www.linkedin.com/in/frednordell"
+          target="_blank"
+        >
+          <img
+            alt="LinkedIn Logo"
+            class="footer-logo"
+            data-v-4896eafd=""
+            src="/src/assets/In-White-66px-R.png"
+          />
+        </a>
+      </footer>
+      
+    </div>
+  </body>,
+  "container": <div>
+    
+    <div
+      data-v-7a7a37b1=""
+    >
+      <img
+        alt="Picture of Fred"
+        class="headshot"
+        data-v-7a7a37b1=""
+        src="/src/assets/face3.jpg"
+      />
+    </div>
+    <h1
+      data-v-7a7a37b1=""
+    >
+      Fred Nordell
+    </h1>
+    <p
+      data-v-7a7a37b1=""
+    >
+       Counsultant at 
+      <a
+        data-v-7a7a37b1=""
+        href="https://netlight.com"
+        target="_blank"
+      >
+        Netlight
+      </a>
+    </p>
+    <p
+      class="reach-out"
+      data-v-7a7a37b1=""
+    >
+      Reach out at 
+      <a
+        data-v-7a7a37b1=""
+        href="mailto:fred@nordells.nu"
+      >
+        fred@nordells.nu
+      </a>
+    </p>
+    <footer
+      data-v-4896eafd=""
+      data-v-7a7a37b1=""
+    >
+      <a
+        data-v-4896eafd=""
+        href="https://github.com/frednordell"
+        target="_blank"
+      >
+        <img
+          alt="Github Logo"
+          class="footer-logo"
+          data-v-4896eafd=""
+          src="/src/assets/GitHub-Mark-Light-64px.png"
+        />
+      </a>
+      <a
+        data-v-4896eafd=""
+        href="https://www.linkedin.com/in/frednordell"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn Logo"
+          class="footer-logo"
+          data-v-4896eafd=""
+          src="/src/assets/In-White-66px-R.png"
+        />
+      </a>
+    </footer>
+    
+  </div>,
+  "debug": [Function],
+  "emitted": [Function],
+  "getByAltText": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholder": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
