@@ -16,7 +16,7 @@ jobs:
       - name: Install bun
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies
-        run: bun install
+        run: bun install && playwright install webkit
       - name: Run tests
         run: bun run test --no-watch
       - name: Build app
