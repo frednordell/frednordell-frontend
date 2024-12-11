@@ -20,7 +20,7 @@ jobs:
       - name: Run tests
         run: bun run test --no-watch
       - name: Build app
-        run: bun build
+        run: bun run build
       # - name: Create release
       # env:
       #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
