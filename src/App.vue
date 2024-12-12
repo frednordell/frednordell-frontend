@@ -4,7 +4,7 @@ import Footer from './components/Footer.vue';
 
 <template>
   <div>
-    <img src="./assets/face3.jpg" class="headshot" alt="Picture of Fred">
+    <img src="./assets/face.webp" class="headshot" alt="Picture of Fred">
   </div>
   <h1>Fred Nordell</h1>
   <p>

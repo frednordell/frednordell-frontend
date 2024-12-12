@@ -19,7 +19,7 @@ exports[`should match snapshot 1`] = `
           alt="Picture of Fred"
           class="headshot"
           data-v-7a7a37b1=""
-          src="/src/assets/face3.jpg"
+          src="/src/assets/face.webp"
         />
       </div>
       <h1
@@ -92,7 +92,7 @@ exports[`should match snapshot 1`] = `
         alt="Picture of Fred"
         class="headshot"
         data-v-7a7a37b1=""
-        src="/src/assets/face3.jpg"
+        src="/src/assets/face.webp"
       />
     </div>
     <h1

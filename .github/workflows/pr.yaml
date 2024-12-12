@@ -1,0 +1,20 @@
+on:
+  pull_request:
+  
+permissions:
+  contents: read
+  deployments: write
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Run tests
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+      - name: Install dependencies
+        run: bun install && bun playwright install webkit --with-deps
+      - name: Run tests
+        run: bun run test --no-watch
