@@ -37,6 +37,18 @@ exports[`should match snapshot 1`] = `
             src="/src/assets/In-White-66px-R.png"
           />
         </a>
+        <a
+          data-v-4896eafd=""
+          href="https://www.credly.com/badges/22062e1a-937f-44fa-a7dc-21a04e6ee87b/public_url"
+          target="_blank"
+        >
+          <img
+            alt="CKA Logo"
+            class="footer-logo"
+            data-v-4896eafd=""
+            src="/src/assets/cka-logo.png"
+          />
+        </a>
       </footer>
     </div>
   </body>,
@@ -66,6 +78,18 @@ exports[`should match snapshot 1`] = `
           class="footer-logo"
           data-v-4896eafd=""
           src="/src/assets/In-White-66px-R.png"
+        />
+      </a>
+      <a
+        data-v-4896eafd=""
+        href="https://www.credly.com/badges/22062e1a-937f-44fa-a7dc-21a04e6ee87b/public_url"
+        target="_blank"
+      >
+        <img
+          alt="CKA Logo"
+          class="footer-logo"
+          data-v-4896eafd=""
+          src="/src/assets/cka-logo.png"
         />
       </a>
     </footer>
