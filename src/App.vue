@@ -8,7 +8,7 @@ import Footer from './components/Footer.vue';
   </div>
   <h1>Fred Nordell</h1>
   <p>
-    Counsultant at <a href="https://netlight.com" target="_blank">Netlight</a>
+    Consultant at <a href="https://netlight.com" target="_blank" rel="noopener noreferrer">Netlight</a>
   </p>
   <p class="reach-out">Reach out at <a href="mailto:fred@nordells.nu">fred@nordells.nu</a></p>
   <Footer></Footer>

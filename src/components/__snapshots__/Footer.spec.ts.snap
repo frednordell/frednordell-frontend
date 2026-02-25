@@ -16,6 +16,7 @@ exports[`should match snapshot 1`] = `
         <a
           data-v-4896eafd=""
           href="https://github.com/frednordell"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <img
@@ -28,6 +29,7 @@ exports[`should match snapshot 1`] = `
         <a
           data-v-4896eafd=""
           href="https://www.linkedin.com/in/frednordell"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <img
@@ -40,6 +42,7 @@ exports[`should match snapshot 1`] = `
         <a
           data-v-4896eafd=""
           href="https://www.credly.com/badges/22062e1a-937f-44fa-a7dc-21a04e6ee87b/public_url"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <img
@@ -59,6 +62,7 @@ exports[`should match snapshot 1`] = `
       <a
         data-v-4896eafd=""
         href="https://github.com/frednordell"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <img
@@ -71,6 +75,7 @@ exports[`should match snapshot 1`] = `
       <a
         data-v-4896eafd=""
         href="https://www.linkedin.com/in/frednordell"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <img
@@ -83,6 +88,7 @@ exports[`should match snapshot 1`] = `
       <a
         data-v-4896eafd=""
         href="https://www.credly.com/badges/22062e1a-937f-44fa-a7dc-21a04e6ee87b/public_url"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <img
