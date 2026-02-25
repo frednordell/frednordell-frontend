@@ -1,0 +1,202 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match snapshot 1`] = `
+{
+  "baseElement": <body>
+    
+    
+    
+  
+
+
+    <div />
+    <div>
+      
+      <div
+        data-v-7a7a37b1=""
+      >
+        <img
+          alt="Picture of Fred"
+          class="headshot"
+          data-v-7a7a37b1=""
+          src="/src/assets/face.webp"
+        />
+      </div>
+      <h1
+        data-v-7a7a37b1=""
+      >
+        Fred Nordell
+      </h1>
+      <p
+        data-v-7a7a37b1=""
+      >
+         Consultant at 
+        <a
+          data-v-7a7a37b1=""
+          href="https://netlight.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Netlight
+        </a>
+      </p>
+      <p
+        class="reach-out"
+        data-v-7a7a37b1=""
+      >
+        Reach out at 
+        <a
+          data-v-7a7a37b1=""
+          href="mailto:fred@nordells.nu"
+        >
+          fred@nordells.nu
+        </a>
+      </p>
+      <footer
+        data-v-4896eafd=""
+        data-v-7a7a37b1=""
+      >
+        <a
+          data-v-4896eafd=""
+          href="https://github.com/frednordell"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Github Logo"
+            class="footer-logo"
+            data-v-4896eafd=""
+            src="/src/assets/GitHub-Mark-Light-64px.png"
+          />
+        </a>
+        <a
+          data-v-4896eafd=""
+          href="https://www.linkedin.com/in/frednordell"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="LinkedIn Logo"
+            class="footer-logo"
+            data-v-4896eafd=""
+            src="/src/assets/In-White-66px-R.png"
+          />
+        </a>
+        <a
+          data-v-4896eafd=""
+          href="https://www.credly.com/badges/22062e1a-937f-44fa-a7dc-21a04e6ee87b/public_url"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="CKA Logo"
+            class="footer-logo"
+            data-v-4896eafd=""
+            src="/src/assets/cka-logo.png"
+          />
+        </a>
+      </footer>
+      
+    </div>
+  </body>,
+  "container": <div>
+    
+    <div
+      data-v-7a7a37b1=""
+    >
+      <img
+        alt="Picture of Fred"
+        class="headshot"
+        data-v-7a7a37b1=""
+        src="/src/assets/face.webp"
+      />
+    </div>
+    <h1
+      data-v-7a7a37b1=""
+    >
+      Fred Nordell
+    </h1>
+    <p
+      data-v-7a7a37b1=""
+    >
+       Consultant at 
+      <a
+        data-v-7a7a37b1=""
+        href="https://netlight.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Netlight
+      </a>
+    </p>
+    <p
+      class="reach-out"
+      data-v-7a7a37b1=""
+    >
+      Reach out at 
+      <a
+        data-v-7a7a37b1=""
+        href="mailto:fred@nordells.nu"
+      >
+        fred@nordells.nu
+      </a>
+    </p>
+    <footer
+      data-v-4896eafd=""
+      data-v-7a7a37b1=""
+    >
+      <a
+        data-v-4896eafd=""
+        href="https://github.com/frednordell"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Github Logo"
+          class="footer-logo"
+          data-v-4896eafd=""
+          src="/src/assets/GitHub-Mark-Light-64px.png"
+        />
+      </a>
+      <a
+        data-v-4896eafd=""
+        href="https://www.linkedin.com/in/frednordell"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn Logo"
+          class="footer-logo"
+          data-v-4896eafd=""
+          src="/src/assets/In-White-66px-R.png"
+        />
+      </a>
+      <a
+        data-v-4896eafd=""
+        href="https://www.credly.com/badges/22062e1a-937f-44fa-a7dc-21a04e6ee87b/public_url"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="CKA Logo"
+          class="footer-logo"
+          data-v-4896eafd=""
+          src="/src/assets/cka-logo.png"
+        />
+      </a>
+    </footer>
+    
+  </div>,
+  "debug": [Function],
+  "emitted": [Function],
+  "getByAltText": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholder": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
