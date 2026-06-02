@@ -1,4 +1,4 @@
-import "@vitest/browser/matchers.d.ts"
+import "@vitest/browser/matchers"
 import { expect, test } from 'vitest'
 import { render } from 'vitest-browser-vue'
 import Footer from './Footer.vue'
