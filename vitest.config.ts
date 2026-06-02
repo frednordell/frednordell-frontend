@@ -8,9 +8,9 @@ export default mergeConfig(viteConfig, defineConfig({
   },
   test: {
     browser: {
-        enabled: true,
-        name: 'webkit',
-        provider: playwright(),
-      },
+      enabled: true,
+      provider: playwright(),
+      instances: [{ browser: 'webkit' }],
+    },
   },
 }))
