@@ -10,7 +10,7 @@ test('should render name', async () => {
 })
 
 test("should match snapshot", async () => {
-  const app = render(App);
+  const { container } = await render(App);
 
-  expect(app).toMatchSnapshot()
+  expect(container).toMatchSnapshot()
 })

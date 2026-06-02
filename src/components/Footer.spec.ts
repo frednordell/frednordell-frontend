@@ -11,7 +11,7 @@ test('should have logos in the footer', async () => {
 })
 
 test("should match snapshot", async () => {
-  const app = render(Footer);
+  const { container } = await render(Footer);
 
-  expect(app).toMatchSnapshot()
+  expect(container).toMatchSnapshot()
 })
