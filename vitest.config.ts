@@ -1,5 +1,6 @@
 import { defineConfig, mergeConfig } from 'vitest/config'
 import viteConfig from './vite.config.ts'
+import { playwright } from '@vitest/browser-playwright'
 
 export default mergeConfig(viteConfig, defineConfig({
   optimizeDeps: {
@@ -9,7 +10,7 @@ export default mergeConfig(viteConfig, defineConfig({
     browser: {
         enabled: true,
         name: 'webkit',
-        provider: 'playwright',
+        provider: playwright(),
       },
   },
 }))
