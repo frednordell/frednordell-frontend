@@ -1,4 +1,4 @@
-import "@vitest/browser/matchers.d.ts";
+import "@vitest/browser/matchers";
 import { expect, test } from 'vitest'
 import { render } from 'vitest-browser-vue'
 import App from './App.vue'
@@ -10,7 +10,7 @@ test('should render name', async () => {
 })
 
 test("should match snapshot", async () => {
-  const app = render(App);
+  const { container } = await render(App);
 
-  expect(app).toMatchSnapshot()
+  expect(container).toMatchSnapshot()
 })
