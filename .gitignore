@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local R2 credentials for scripts/gallery-add.ts
+.env

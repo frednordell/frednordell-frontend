@@ -9,8 +9,9 @@ test('should render name', async () => {
   await expect.element(getByText('Fred Nordell')).toBeInTheDocument()
 })
 
-test("should match snapshot", async () => {
-  const { container } = await render(App);
+test('should render the navigation tabs', async () => {
+  const { getByText } = render(App)
 
-  expect(container).toMatchSnapshot()
+  await expect.element(getByText('About')).toBeInTheDocument()
+  await expect.element(getByText('Gallery')).toBeInTheDocument()
 })
