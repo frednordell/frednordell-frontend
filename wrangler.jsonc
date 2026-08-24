@@ -1,0 +1,24 @@
+{
+  // Configuration for the Pages project. Once this file carries
+  // "pages_build_output_dir" it becomes the source of truth: the same fields
+  // are visible but no longer editable in the Cloudflare dashboard. Deleting
+  // the file and redeploying hands control back to the dashboard.
+  "name": "frednordell-frontend",
+  "pages_build_output_dir": "./dist",
+
+  // Must be explicit — the dashboard's "Latest" setting has no equivalent here.
+  "compatibility_date": "2026-08-24",
+
+  // Read by functions/api/gallery.ts as env.GALLERY.
+  "r2_buckets": [
+    {
+      "binding": "GALLERY",
+      "bucket_name": "frednordell-gallery"
+    }
+  ],
+
+  // Custom domain bound to the bucket; where the gallery's image bytes come from.
+  "vars": {
+    "IMAGE_BASE_URL": "https://img.frednordell.com"
+  }
+}

@@ -59,8 +59,9 @@ Photos live in a Cloudflare R2 bucket, not in the repo.
   `bun add -d sharp @aws-sdk/client-s3`. Credentials go in a gitignored `.env`
   (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, optional
   `R2_BUCKET`).
-- Local dev against the real bucket:
-  `bunx wrangler pages dev dist --r2 GALLERY=frednordell-gallery`
+- `wrangler.jsonc` declares the `GALLERY` binding and `IMAGE_BASE_URL`, for both
+  local dev and deployments. Local dev against the real bucket: `bun run build`
+  then `bunx wrangler pages dev`.
 
 ## Testing
 
@@ -81,9 +82,13 @@ Strict mode is enabled with `noUnusedLocals` and `noUnusedParameters`. Three tsc
 
 CI/CD via GitHub Actions (`.github/workflows/`). Pushes to main build and deploy to Cloudflare Pages. PRs run tests only.
 
-The gallery needs two things configured in Cloudflare, outside this repo:
+Pages configuration lives in `wrangler.jsonc` rather than the dashboard. Because
+that file sets `pages_build_output_dir`, it is the **source of truth**: the same
+fields are visible but not editable in the dashboard, and `compatibility_date`
+must be set explicitly (there is no "Latest"). Deleting the file and deploying
+again returns control to the dashboard, keeping the last deployed values.
 
-1. An R2 bucket with a custom domain bound to it (e.g. `img.frednordell.com`) so
-   image bytes are served over the CDN.
-2. An R2 binding named `GALLERY` on the Pages project, pointing at that bucket.
-   Without it `/api/gallery` returns 500 and the gallery page shows its error state.
+The one thing still configured in Cloudflare is the R2 bucket itself: create
+`frednordell-gallery` and bind a custom domain (`img.frednordell.com`) to it so
+image bytes are served over the CDN. If the bucket is missing, `/api/gallery`
+fails and the gallery page shows its error state.
